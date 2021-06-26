@@ -37,3 +37,31 @@ h2 {
 .hero img {
 	max-width: 550px;
 }
+
+/* Jackets */
+.shoes h2 {
+	font-size: 42px;
+}
+.shoes .card {
+	border-radius: 1em;
+	border: 0;
+}
+.shoes .card-img {
+	background: #f1f1f1;
+	text-align: center;
+	border-radius: 1em;
+}
+.shoes .card-img img {
+	padding: 1em;
+}
+.shoes .card-footer {
+	border: 0;
+	background: #fff;
+}
+.shoes .card-title {
+	font-size: 1.8em;
+}
+.shoes .card-footer .price {
+	font-size: 2em;
+	font-weight: bold;
+}
