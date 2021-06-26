@@ -91,3 +91,31 @@ section h2 {
 	background: #fa804c;
 	color: #fff;
 }
+
+/* Media Query */
+@media all and (max-width: 1024px) {
+	.btn-blue {
+		font-size: 0.8em;
+	}
+	.hero img {
+		max-width: 100%;
+	}
+}
+
+@media all and (max-width: 568px) {
+	.header-area .navbar-brand img {
+		max-height: 28px;
+	}
+	.hero h1 {
+		font-size: 60px;
+	}
+	.hero .hero-info {
+		margin-top: 3em;
+	}
+	.shoes h2 {
+		text-align: center;
+	}
+	.features .feature-main-img {
+		margin-bottom: 3rem;
+	}
+}
